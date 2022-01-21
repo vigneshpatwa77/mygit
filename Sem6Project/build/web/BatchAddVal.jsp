@@ -11,7 +11,7 @@
     batch b = new batch(b_id1, s_id, time, edate);
     boolean s = bi.addBatch(b);
     if (s) {
-        response.sendRedirect("./StudentTable.jsp");
+        response.sendRedirect("./BatchTable.jsp");
     } else {
         System.out.println("failed");
     }
